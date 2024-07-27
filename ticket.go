@@ -13,7 +13,7 @@ type Ticket struct {
 	PriorityID            int       `json:"priority_id"`
 	StateID               int       `json:"state_id"`
 	OrganizationID        int       `json:"organization_id"`
-	Number                string    `json:"number"`
+	Number                string    `json:"number,omitempty"`
 	Title                 string    `json:"title"`
 	OwnerID               int       `json:"owner_id"`
 	CustomerID            int       `json:"customer_id"`
